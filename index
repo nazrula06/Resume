@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anisha Nazrul - Professional Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Anisha Nazrul</h1>
+            <p class="tagline">Data Scientist | AI & Analytics Specialist | Health IT Professional</p>
+            <div class="contact-info">
+                <span>📧 anisha.nazrul@example.com</span>
+                <span>📱 (813) 123-4567</span>
+                <span>📍 Tampa, FL</span>
+                <span><a href="https://github.com/nazrula06" target="_blank">GitHub</a></span>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2>Tools & Technologies</h2>
+            <div class="skills">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <p>Python, R, SQL, JavaScript, HTML, CSS</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Analysis & Visualization</h3>
+                    <p>Jupyter Notebook, Databricks, Snowflake, Tableau, Power BI, Microsoft Excel (PivotTables, VBA), Wireshark</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Machine Learning & Gen AI</h3>
+                    <p>Claude, Scikit-learn, TensorFlow, PyTorch, Flask, Docker</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>AI and Tech Projects</h2>
+            
+            <div class="project">
+                <h3>Bird Strike Cost Prediction — Supervised Learning</h3>
+                <p class="tech">Python (Scikit-learn, Pandas)</p>
+                <ul>
+                    <li>Engineered ensemble models (Decision Trees, Neural Networks, Voting Regressors) to predict cost impact of bird strikes using aviation incident datasets.</li>
+                    <li>Optimized model performance through hyperparameter tuning and cross-validation; implemented data preprocessing pipelines to handle missing values and outliers.</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3>Marketing Campaign Impact Modeling — Statistical Analysis</h3>
+                <p class="tech">R (ggplot2, lm)</p>
+                <ul>
+                    <li>Conducted multivariate regression to quantify the influence of promotional email strategies on customer spend.</li>
+                    <li>Validated model assumptions using residual plots and multicollinearity diagnostics; generated actionable insights for customer segmentation and campaign refinement.</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3>E-Commerce Trends Visualization — Exploratory Data Analysis</h3>
+                <p class="tech">Tableau, Power BI</p>
+                <ul>
+                    <li>Transformed and visualized U.S. Census retail data to analyze temporal trends and e-commerce adoption across demographic cohorts.</li>
+                    <li>Built interactive dashboards with slicers and calculated fields to allow dynamic exploration of product category performance.</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3>Digital Health System Redesign — Systems Architecture</h3>
+                <p class="tech">Health IT, Compliance</p>
+                <ul>
+                    <li>Designed a digital transformation framework for pediatric practice ("The Little Ones" case) integrating AI-enabled EMR systems.</li>
+                    <li>Mapped legacy workflows to new architecture; specified compliance with HIPAA, ICD-10 coding standards, and role-based access control (RBAC) policies.</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3>Mere Macaroon Web Analytics Platform — Front-End Development</h3>
+                <p class="tech">HTML, CSS, JavaScript</p>
+                <ul>
+                    <li>Developed a responsive e-commerce site using web technologies and implemented customer interaction logging.</li>
+                    <li>Deployed a GPT-powered chatbot for product Q&A and built client-side tracking scripts to capture behavioral analytics for conversion optimization.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Work Experience</h2>
+
+            <div class="job">
+                <div class="job-header">
+                    <h3>Clinical Research Data Management</h3>
+                    <p class="company">Moffitt Cancer Research Center | Tampa, FL</p>
+                    <p class="dates">Jan 2023 – Present</p>
+                </div>
+                <ul>
+                    <li>Engineered scalable data tracking workflows to analyze patient trends across 7+ clinical trials and support investigator decision-making.</li>
+                    <li>Queried and validated structured EMR data via EDC platforms (e.g., RAVE, Medidata), improving data integrity and enabling downstream reporting automation.</li>
+                    <li>Collaborated with cross-functional teams to integrate clinical trial datasets, optimize documentation workflows in Planview and Florence, and ensure regulatory compliance.</li>
+                    <li>Designed internal dashboards using Excel and Smartsheet to track enrollment and study milestones, streamlining communication across 12+ active and closed trials.</li>
+                    <li>Authored detailed protocol documentation and DOA logs, aligned with GCP and FDA regulations, to support audits and enhance SOP adherence.</li>
+                    <li>Participated in data QA/QC by resolving monitor queries and reconciling lab/imaging data to ensure consistency in patient safety assessments and AE reporting.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <h3>Float Certified Nurse Assistant</h3>
+                    <p class="company">AdventHealth Hospital | Tampa, FL</p>
+                    <p class="dates">Mar 2021 – Jan 2023</p>
+                </div>
+                <ul>
+                    <li>Collaborated with multidisciplinary teams across ER, pediatrics, oncology, and neurology units to monitor patient outcomes using electronic health record (EHR) systems.</li>
+                    <li>Captured real-time patient vitals and medication responses in EMRs, supporting clinical decision-making and predictive care models during the COVID-19 pandemic.</li>
+                    <li>Identified data inconsistencies in patient charts, contributing to improved data quality for hospital-wide reporting and compliance tracking.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <h3>Certified Nurse Assistant</h3>
+                    <p class="company">Fletcher Health and Rehabilitation Center | Tampa, FL</p>
+                    <p class="dates">Feb 2020 – Nov 2020</p>
+                </div>
+                <ul>
+                    <li>Monitored, recorded, and reported patient vitals for 20+ patients per shift, ensuring data accuracy in EMR for post-acute care evaluation.</li>
+                    <li>Participated in interdisciplinary rounds, leveraging patient data trends to support nursing staff with care planning and clinical documentation.</li>
+                    <li>Prioritized real-time data capture and patient-centered metrics in a high-volume rehabilitation setting.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <h3>Dental Office Manager</h3>
+                    <p class="company">American Muslim Community Clinic | Longwood, FL</p>
+                    <p class="dates">Jan 2019 – Feb 2021</p>
+                </div>
+                <ul>
+                    <li>Developed and optimized appointment scheduling workflows using Excel-based systems, improving operational throughput and reducing patient no-shows.</li>
+                    <li>Collected, validated, and digitized patient eligibility data, contributing to efficient patient intake and service documentation for a non-profit clinic.</li>
+                    <li>Launched and analyzed engagement metrics from a targeted social media campaign, increasing monthly appointment volume and clinic visibility.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <h3>Pharmacy Technician</h3>
+                    <p class="company">CVS Pharmacy | Altamonte Springs, FL</p>
+                    <p class="dates">Aug 2016 – Dec 2018</p>
+                </div>
+                <ul>
+                    <li>Entered and verified prescription data in pharmacy systems for 75+ orders daily, maintaining data integrity and compliance with HIPAA and DEA regulations.</li>
+                    <li>Resolved discrepancies in medication orders by communicating with physicians and insurance providers, reducing processing delays and improving patient outcomes.</li>
+                    <li>Supported medication inventory tracking through system audits and data entry, ensuring accurate supply chain documentation.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Education</h2>
+
+            <div class="education">
+                <h3>Master of Science in Artificial Intelligence (AI) and Business Analytics</h3>
+                <p class="school">University of South Florida | Tampa, FL</p>
+                <p class="graduation">Expected Graduation: Aug 2025</p>
+            </div>
+
+            <div class="education">
+                <h3>Master of Science in Biotechnology</h3>
+                <p class="school">University of South Florida | Tampa, FL</p>
+                <p class="graduation">Spring 2021</p>
+            </div>
+
+            <div class="education">
+                <h3>Bachelor of Science in Interdisciplinary Science</h3>
+                <p class="school">University of Central Florida | Orlando, FL</p>
+                <p class="minor">Minor: Health Informatics Systems</p>
+                <p class="graduation">Fall 2017</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Anisha Nazrul. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
